@@ -25,5 +25,5 @@ main.o: main.c
 	$(CC) -c $^ $(CPPINCLUDE)
 
 clean:
-	rm main.o main
+	-rm main.o main
 
